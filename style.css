@@ -1,0 +1,23 @@
+h3 {
+    font-size: 30px;
+}
+
+.btn-danger:hover {
+    background-color: blue;
+}
+
+canvas {
+    animation-name: highlight;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes highlight {
+    from {
+        box-shadow: 1px, 1px, 38px, red;
+    }
+
+    to {
+        box-shadow: 1px, 1px, 38px, orange;
+    }
+}
